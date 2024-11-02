@@ -7,15 +7,9 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'Bmwmd$T5i2RdPK',
+module.exports = { session: process.env.SESSION_ID || 'Bmwmd$0QUdScht',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "ʟ /𝒖
-   ᴏ /𝒛
-     ᴜ/ 𝒖
-       ᴋ/ 𝒎 
-         s/ 𝒂
-           ᴏ /𝒌
-              ɴ/𝒊",
+    OWNER_NAME: process.env.OWNER_NAME || "✮✮✮ʟᴏᴜᴋsᴏɴᵘᶻᵘᵐᵃᵏⁱ₊ ͟͟͞͞➳",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "23502331988",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
